@@ -7,6 +7,8 @@ import studyIcon from '../../assets/images/icons/study.png'
 import giveClassesIcon from '../../assets/images/icons/give-classes.png'
 import purpleHeartIcon from '../../assets/images/icons/heart.png'
 
+import './styles.css';
+
 function Landing(){
     return (
         <div id="page-landing">
@@ -24,7 +26,7 @@ function Landing(){
 
                     <a href="" className="give-classes">
                         <img src={giveClassesIcon} alt="Dar aula" />
-                        Estudar
+                        Dar aulas
                     </a>
                 </div>
                 <span className="total-connections">
