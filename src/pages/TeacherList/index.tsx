@@ -1,6 +1,6 @@
 import React from "react";
 import Input from "../../components/Input";
-import PageHeader from "../../components/PageHeader/indes";
+import PageHeader from "../../components/PageHeader/index";
 import TeacherItem from "../../components/TeacherItem";
 
 import './styles.css';
