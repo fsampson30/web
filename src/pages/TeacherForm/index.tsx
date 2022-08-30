@@ -38,10 +38,13 @@ function TeacherForm(){
                 </fieldset>
 
                 <fieldset>
-                    <legend>Horários disponíveis
-                    <button>+ Novo horário</button>
+                    <legend>
+                        Horários disponíveis
+                        <button>
+                            + Novo horário
+                        </button>
                     </legend>                                        
-                </fieldset>
+                
                 <div className="schedule-item">
                 <Select name="week_day" label="Dia da Semana" 
                     options={[
@@ -57,6 +60,7 @@ function TeacherForm(){
                 <Input name="from" label="Das:" type="time"></Input>
                 <Input name="to" label="Até:" type="time"></Input>
                 </div>
+                </fieldset>
 
                 <footer>
                     <p>
